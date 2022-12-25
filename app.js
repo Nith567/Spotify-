@@ -1,5 +1,5 @@
 const songslist=[
-        {songName:"Hoyna Hoyna - SenSongsMp3.Co.mp3",coverpath:"covers/1.jpg"},
+        {songName:"One-Direction-Story-of-My-Life.mp3",coverpath:"covers/1.jpg"},
         {songName:"06 Toliprema __ SenSongsMp3.Co.mp3",coverpath:"covers/2.jpg"},
         {songName:"03 [iSongs.info] 03 - Hey Pillagaada.mp3",coverpath:"covers/3.jpg"},
         {songName:"Anaganaga Oka Uru (Female) - SenSongsMp3.Co.mp3",coverpath:"covers/4.jpg"},
