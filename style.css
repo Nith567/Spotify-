@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,200;1,300;1,400&family=Roboto+Mono:ital,wght@0,100;1,200;1,400;1,500&display=swap');
+ body{
+background-color:#D22779;
+} 
+*{
+    margin: 0;
+    padding: 0; 
+}
+nav{
+    font-family:sans-serif,'Ubuntu';
+}
+#logo{
+    width:40px;
+    height:43px;
+    font-weight: bold;
+    font-size :1.3 rem;
+    padding:0 5px;
+}
+nav ul{
+    align-items: center;
+    display:flex; 
+    list-style-type:none;
+    background-color:#100F0F;
+   
+    color:rgba(0, 128, 0, 0.645);
+    height:62px;
+    /* padding-top: 1.8rem; */
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size:1.2rem;
+    padding:0px;
+}
+nav ul li{
+    padding:0 17px; 
+}
+.bottom{
+    position: sticky;
+    height:100px;
+    background-color: rgba(3, 0, 100, 0.255);
+    color:#ffeff0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+}
+.icons{
+    margin:13px;
+}
+.icons i{
+    cursor:pointer;
+}
+.container{
+    height:72vh;
+     /* background-color:#2D033B; */
+     background-color:#D8D8D8;
+    color:#42855B;
+    /* color:#205295; */
+    font-family:   'Times New Roman', serif;
+    display:flex;
+    margin:23px auto;
+    width:79%;
+    border-radius: 15px;
+    padding:15px;
+    /* background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.LTQbyVU-sWj-nCHb9xjSOAHaIZ%26pid%3DApi&f=1&ipt=c951024c84e4a51ca1548e4b8e086e357ca77e77abb97707acd1db253fedaacd&ipo=images'); */
+}
+#range{
+    cursor: pointer ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:80vw;
+}
+.songitem{
+height:99px;
+display:flex;
+flex-wrap: wrap;
+background-color:#caa5a5;
+color:#d5e9e0;
+align-items: center ;
+margin:12px  0;
+justify-content: space-between;
+border-radius:42px ;
+}
+.songitem span{
+    padding:0 5px 2px 1px;
+}
+.songitem img{
+width:63 px;
+height:69%;
+margin:0 20px;
+border-radius:inherit;
+}
+.songitem i{
+    cursor: pointer;
+}
+.allSongsContainer{
+    margin-top: 13px;
+    /* border-radius:0.5rem */
+}
+.gif-song{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between ;
+    align-items: center;
+    margin-left: 163px;
+    position: absolute;
+    bottom: 56px;
+    left:-20px;
+    color:#FCFDF2;
+    font-family:  Helvetica, sans-serif;
+    /* margin-top:1px; */
+}
+.gif-song img{
+    opacity:0;
+    transition: opacity 0.1s ease-in;
+}
+#play{
+    color:#F5F5F5;
+}
